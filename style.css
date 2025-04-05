@@ -562,8 +562,15 @@ a {
     margin: 20px 0;
 }
 
-.npr_section_headLine .npr_section_title {
-    font: 700 26px / 28px var(--global-top-headlines-font);
+.npr_section_headLine .asNpr_sct_tt_link {
+    display: inline-block;
+    padding: 3px 10px 5px 0;
+    font: 700 16px / 28px var(--global-top-headlines-font);
+    color: var(--npr-section-hdLine-hover-color);
+}
+
+.asNpr_sct_tt_link:hover {
+    color: #303030;
 }
 
 .npr_sub_lists {
