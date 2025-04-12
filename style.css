@@ -581,8 +581,7 @@ a {
 
 .npr_sub_item {
     list-style-type: none;
-    margin-right: 10px;
-    padding-right: 5px;
+    padding-right: 10px;
 }
 
 .npr_sub_link,
@@ -601,7 +600,7 @@ a {
 .npr_sub_link::after {
     content: '\2022';
 /*     position: absolute; */
-    margin-left: 10px;
+    padding-left: 10px;
     color: #f80caa;
     font-size: 22px;
     vertical-align: middle;
