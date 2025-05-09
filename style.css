@@ -955,7 +955,7 @@ a {
 }
 
 .item_title a {
-    display: block;
+    display: none;
     margin: 5px 0px;
     font: 700 16px / 18px var(--global-item-headline-font);
 }
